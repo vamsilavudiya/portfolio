@@ -1,0 +1,32 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.name > span{
+    height: 130px;
+    width: 12px;
+    transform: rotate(10deg);
+    background:linear-gradient(  rgb(174, 0, 255), red);
+    
+}
+.name > h1{
+    font-family: 'general-regular';
+    font-size: 130px;
+} 
+.main > h2{
+    font-family: 'general-light1';
+    font-weight: 100;
+    margin-top: 10px;
+    color: rgb(216, 252, 124);
+}

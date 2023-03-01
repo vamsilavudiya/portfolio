@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'general-light';
+    src: url(./assets/fonts/GeneralSans-Light.ttf);
+}
+@font-face {
+    font-family: 'general-regular';
+    src: url(./assets/fonts/GeneralSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'general-light1';
+    src: url(./assets/fonts/GeneralSans-Light1.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
